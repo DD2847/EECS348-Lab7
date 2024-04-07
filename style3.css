@@ -1,0 +1,14 @@
+body {
+    background-color: burlywood;
+    color: black;
+    font-family: arial;
+    font-size: 18pt;
+    background-image: url("pictures/titans.jpg");
+    background-size: 100%;
+}
+
+.titanwin{
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+}

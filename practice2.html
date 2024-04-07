@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Colorful Words of Wisdom</title>
+<link rel="icon" href="pictures/wheel.jpg">
+</head>
+<body>
+    <h2>Transmogrifier</h2>
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <style>
+        #target {border-style: solid; border-width: 5px; }
+    </style>
+    <div id="target" style="color:rgb(0, 0, 0); background-color:rgb(255,255,255); border-width:5px; border-style:solid; border-color:rgb(0,0,0); padding: 1em">People pay for what they do, and still more for what they have allowed themselves to become. And they pay for it very simply; by the lives they lead.<br>-James Baldwin</div>
+    <br>
+    <script type="text/javascript" src="functions.js"></script>
+    <h4>Style Changer:</h4>
+    <div class="textboxes">
+        Border R(0-255):<input id="border_R" type="text" value=""><br>
+        Border G(0-255):<input id="border_G" type="text" value=""><br>
+        Border B(0-255):<input id="border_B" type="text" value=""><br>
+        Border Width:<input id="border_W" type="text" value=""><br>
+        Background R(0-255):<input id="back_R" type="text" value=""><br>
+        Background G(0-255):<input id="back_G" type="text" value=""><br>
+        Background B(0-255):<input id="back_B" type="text" value=""><br>
+        <button onclick="change()">Do it!</button>
+    </div>
+    <div class="baldwin">
+        <img src = "pictures/baldwin.jpg" WIDTH=300 HEIGHT=305>
+    </div>
+</body>
+</html>

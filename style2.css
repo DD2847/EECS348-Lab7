@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 18pt;
+}
+
+.baldwin{
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+}

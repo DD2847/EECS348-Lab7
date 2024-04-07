@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 18pt;
+    background-image: url("pictures/r2.jpg");
+    background-size: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.image_now{
+    position: relative;
+    left: 200px;
+}
+
+.video_now{
+    position: relative;
+    left: 960px;
+    bottom: 470px;
+}
+/*
+body:hover {
+    background-color: blue;
+    color: red;
+    font-family: arial;
+    font-size: 18pt;
+    background-image: url("pictures/background.jpg");
+    background-size: 100%;
+}
+*/
